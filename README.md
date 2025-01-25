@@ -14,7 +14,7 @@ folgenden Befehl in Powershell mit Adminrechten Starten
 
 ### Parameters
 
-Liste der Parameter genutzt werden können
+Liste der Parameter die genutzt werden können
 Bsp.
 ```PowerShell
 & ([scriptblock]::Create((irm "https://raw.githubusercontent.com/michaelcuerlis/windeb/refs/heads/master/Get.ps1"))) -RemoveW11Outlook
