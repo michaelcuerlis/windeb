@@ -99,10 +99,10 @@ XING
 # ------------------------------------------------------------------------------------------------------------- #
 Microsoft.BingSearch                   # Web Search from Microsoft Bing (Integrates into Windows Search)
 Microsoft.Copilot                      # New Windows Copilot app
-Microsoft.Edge                         # Edge browser (Can only be uninstalled in European Economic Area)
+#Microsoft.Edge                         # Edge browser (Can only be uninstalled in European Economic Area)
 #Microsoft.GetHelp                      # Required for some Windows 11 Troubleshooters
 #Microsoft.MSPaint                      # Paint 3D
-Microsoft.OneDrive                     # OneDrive consumer
+#Microsoft.OneDrive                     # OneDrive consumer
 #Microsoft.Paint                        # Classic Paint
 #Microsoft.ScreenSketch                 # Snipping Tool
 #Microsoft.Whiteboard                   # Only preinstalled on devices with touchscreen and/or pen support
@@ -118,8 +118,15 @@ Microsoft.XboxSpeechToTextOverlay      # Might be required for some games, WARNI
 #Microsoft.YourPhone                    # Phone link
 Microsoft.ZuneMusic                    # Modern Media Player
 #MicrosoftWindows.CrossDevice           # Phone integration within File Explorer, Camera and more
-
-
+Microsoft.GamingApp                    # Modern Xbox Gaming App, required for installing some PC games
+Microsoft.OutlookForWindows            # New mail app: Outlook for Windows
+Microsoft.People                       # Required for & included with Mail & Calendar
+Microsoft.PowerAutomateDesktop
+#Microsoft.RemoteDesktop
+Microsoft.Windows.DevHome
+Microsoft.windowscommunicationsapps    # Mail & Calendar
+Microsoft.XboxGameOverlay              # Game overlay, required/useful for some games
+Microsoft.XboxGamingOverlay            # Game overlay, required/useful for some games
 
 
 # --------------------------------------------------------------------------------------------------------------- #
