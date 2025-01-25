@@ -1,18 +1,24 @@
-Nach Neuinstallation
+Nach Neuinstallation:
 
+folgenden Befehl in Powershell mit Adminrechten Starten
 ```PowerShell
 & ([scriptblock]::Create((irm "https://raw.githubusercontent.com/michaelcuerlis/windeb/refs/heads/master/Get.ps1"))) -RemoveApps -RemoveW11Outlook -RemoveGamingApps -DisableDVR -DisableTelemetry -DisableBing -DisableSuggestions -DisableDesktopSpotlight -DisableLockscreenTips -RevertContextMenu -ShowKnownFileExt -HideSearchTb -HideTaskview -HideChat -DisableWidgets -DisableCopilot -DisableRecall -ExplorerToThisPC
 ```
 
-Bestehende Installationen
+Bestehende Installationen:
 
+folgenden Befehl in Powershell mit Adminrechten Starten
 ```PowerShell
 & ([scriptblock]::Create((irm "https://raw.githubusercontent.com/michaelcuerlis/windeb/refs/heads/master/Get.ps1"))) -RemoveW11Outlook -RemoveGamingApps -DisableDVR -DisableTelemetry -DisableBing -DisableSuggestions -DisableDesktopSpotlight -DisableLockscreenTips -RevertContextMenu -ShowKnownFileExt -HideSearchTb -HideTaskview -HideChat -DisableWidgets -DisableCopilot -DisableRecall -ExplorerToThisPC
 ```
 
 ### Parameters
 
-The quick and advanced usage methods support switch parameters. A table of all the supported parameters and what they do can be found below.
+Liste der Parameter genutzt werden können
+Bsp.
+```PowerShell
+& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/michaelcuerlis/windeb/refs/heads/master/Get.ps1"))) -RemoveW11Outlook
+```
 
 | Parameter | Description |
 | :-------: | ----------- |
